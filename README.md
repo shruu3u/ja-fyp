@@ -1,75 +1,41 @@
-# Getting Started with Create React App
+# Final Year Project – Emotion Detection
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the core components of my Final Year Project titled **"Emotion Detection Using Deep Learning"**.
 
-## Available Scripts
+## 🧠 About the Project
 
-In the project directory, you can run:
+The goal of this project is to build an intelligent journaling and sleep-assistance platform that detects emotions from user-written text using deep learning techniques. Users can write about their day, and the system analyzes the text to classify emotions such as happiness, sadness, anger, and more.
 
-### `npm start`
+The classified emotion is then used to generate personalized, comforting responses using a GPT-based language model. The app also offers relaxing content like music, sleep stories, and emotional wellness tracking through a user-friendly interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Technologies used include:
+- **BiLSTM with GloVe embeddings** for emotion detection
+- **DistilGPT-2** for generating supportive messages
+- **React** for frontend development
+- **Flask** for backend API integration
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Project Structure
 
-### `npm test`
+I have added the **frontend files** (React) used for the web interface of the emotion detection system. Due to large file sizes, I was **unable to upload all of the website files** and certain assets/models in this repository.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📓 Jupyter Notebooks Included
 
-### `npm run build`
+This project includes three main notebooks located in the `notebooks/` folder:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Baseline Models Implementation**  
+   Implements initial machine learning classifiers like Logistic Regression, Naive Bayes, and Random Forest to establish benchmark performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Hyperparameter Tuning**  
+   Covers optimization and cross-validation for both traditional ML models and LSTM-based models.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Final BiLSTM Model**  
+   Contains the full pipeline — from preprocessing, embedding, model training, and evaluation — using a stacked Bidirectional LSTM architecture for emotion classification.
 
-### `npm run eject`
+## 🚀 Highlights
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# finalyearproject
-Final Year Project - Emotion-detection deep learning model
- efab37285361f05866bc63dc61add7ccaa4a9877
-
+- Emotion classification from user-written journals
+- GPT-generated comforting messages based on emotion
+- Sleep and wellness support features
+- Clean, user-friendly React frontend connected to a Flask backend
+- 
  Link to dataset:  https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text

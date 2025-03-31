@@ -2,7 +2,7 @@
 
 This repository contains the core components of my Final Year Project titled **"Emotion Detection Using Deep Learning"**.
 
-## 🧠 About the Project
+## About the Project
 
 The goal of this project is to build an intelligent journaling and sleep-assistance platform that detects emotions from user-written text using deep learning techniques. Users can write about their day, and the system analyzes the text to classify emotions such as happiness, sadness, anger, and more.
 
@@ -14,11 +14,11 @@ Technologies used include:
 - **React** for frontend development
 - **Flask** for backend API integration
 
-## 📁 Project Structure
+## Project Structure
 
 I have added the **frontend files** (React) used for the web interface of the emotion detection system. Due to large file sizes, I was **unable to upload all of the website files** and certain assets/models in this repository.
 
-## 📓 Jupyter Notebooks Included
+## Jupyter Notebooks Included
 
 This project includes three main notebooks located in the `notebooks/` folder:
 
@@ -31,11 +31,5 @@ This project includes three main notebooks located in the `notebooks/` folder:
 3. **Final BiLSTM Model**  
    Contains the full pipeline — from preprocessing, embedding, model training, and evaluation — using a stacked Bidirectional LSTM architecture for emotion classification.
 
-## 🚀 Highlights
-
-- Emotion classification from user-written journals
-- GPT-generated comforting messages based on emotion
-- Sleep and wellness support features
-- Clean, user-friendly React frontend connected to a Flask backend
-- 
- Link to dataset:  https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text
+- Link to dataset:  https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text
+- You just needs to download this dataset and you can run the notebooks to see how they work!

@@ -16,7 +16,7 @@ Technologies used include:
 
 ## Project Structure
 
-I have added the **frontend files** (React) used for the web interface of the emotion detection system. Due to large file sizes, I was **unable to upload all of the website files** and certain assets/models in this repository.
+I have added the **frontend files** (React) and one backend file which ids the app.py used for the web interface oand integration of BiLSTM model with the Journal page. Due to large file sizes, I was **unable to upload all of the website files** and certain assets/models in this repository.
 
 ## Jupyter Notebooks Included
 

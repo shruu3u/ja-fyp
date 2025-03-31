@@ -71,3 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # finalyearproject
 Final Year Project - Emotion-detection deep learning model
  efab37285361f05866bc63dc61add7ccaa4a9877
+
+ Link to dataset:  https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text

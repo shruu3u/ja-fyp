@@ -20,7 +20,7 @@ I have added the **frontend files** (React) and one backend file which ids the a
 
 ## Jupyter Notebooks Included
 
-This project includes three main notebooks located in the `notebooks/` folder:
+This project includes three main notebooks located in the `Jupyter-Notebook-Training-Codes` folder:
 
 1. **Baseline Models Implementation**  
    Implements initial machine learning classifiers like Logistic Regression, Naive Bayes, and Random Forest to establish benchmark performance.
@@ -33,3 +33,5 @@ This project includes three main notebooks located in the `notebooks/` folder:
 
 - Link to dataset:  https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text
 - You just needs to download this dataset and you can run the notebooks to see how they work!
+
+I have uploaded the Website's main Js files and Backend python file. They are loacted in the  `Website-Codes` folder:

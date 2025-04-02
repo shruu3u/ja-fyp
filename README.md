@@ -34,4 +34,4 @@ This project includes three main notebooks located in the `Jupyter-Notebook-Trai
 - Link to dataset:  https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text
 - You just needs to download this dataset and you can run the notebooks to see how they work!
 
-I have uploaded the Website's main Js files and Backend python file. They are loacted in the  `Website-Codes` folder:
+I have uploaded the Website's main Js files and Backend python file. They are loacted in the  `Website-Codes` folder.

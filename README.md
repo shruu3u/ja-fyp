@@ -2,36 +2,84 @@
 
 This repository contains the core components of my Final Year Project titled **"Emotion Detection Using Deep Learning"**.
 
+---
+
 ## About the Project
 
-The goal of this project is to build an intelligent journaling and sleep-assistance platform that detects emotions from user-written text using deep learning techniques. Users can write about their day, and the system analyzes the text to classify emotions such as happiness, sadness, anger, and more.
+The goal of this project is to develop an intelligent journaling and sleep-assistance platform that detects emotions from user-written text using deep learning.
 
-The classified emotion is then used to generate personalized, comforting responses using a GPT-based language model. The app also offers relaxing content like music, sleep stories, and emotional wellness tracking through a user-friendly interface.
+Users can write about their day, and the system analyzes the text to classify emotions such as happiness, sadness, anger, and more. Based on the predicted emotion, the system:
 
-Technologies used include:
-- **BiLSTM with GloVe embeddings** for emotion detection
-- **DistilGPT-2** for generating supportive messages
-- **React** for frontend development
-- **Flask** for backend API integration
+- Generates personalized comforting responses using a GPT-based language model
+- Offers relaxing content like music, sleep stories, and emotional wellness tracking
+- Provides a friendly and intuitive web interface
+
+---
+
+## Technologies Used
+
+- BiLSTM with GloVe embeddings for emotion classification
+- DistilGPT-2 for generating therapeutic responses
+- React.js for frontend development
+- Flask for backend integration
+
+---
 
 ## Project Structure
 
-I have added the **frontend files** (React) and one backend file which ids the app.py used for the web interface oand integration of BiLSTM model with the Journal page. Due to large file sizes, I was **unable to upload all of the website files** and certain assets/models in this repository.
+Due to file size limitations, I was unable to upload all website files and model assets. However, the repository includes the essential frontend (React.js) and backend (`app.py`) files inside the `Website-Codes` folder to demonstrate the working integration between the journal and the BiLSTM emotion model.
+
+A video demo has also been included to show how the full system works.
+
+---
 
 ## Jupyter Notebooks Included
 
-This project includes three main notebooks located in the `Jupyter-Notebook-Training-Codes` folder:
+You’ll find four main notebooks in the `Jupyter-Notebook-Training-Codes` folder. Please run them in the following order for best results:
 
-1. **Baseline Models Implementation**  
-   Implements initial machine learning classifiers like Logistic Regression, Naive Bayes, and Random Forest to establish benchmark performance.
+1. **Baseline_Model.ipynb**  
+   Implements benchmark classifiers like Logistic Regression, Naive Bayes, and Random Forest.
 
-2. **Hyperparameter Tuning**  
-   Covers optimization and cross-validation for both traditional ML models and LSTM-based models.
+2. **BestModel1.ipynb**  
+   Trains and saves the best-performing BiLSTM model along with:
+   - `model.keras`  
+   - `BestTokenizer1.pkl`  
+   - `BestLabelEncoder.pkl`
 
-3. **Final BiLSTM Model**  
-   Contains the full pipeline — from preprocessing, embedding, model training, and evaluation — using a stacked Bidirectional LSTM architecture for emotion classification.
+3. **HT_Final.ipynb**  
+   Performs hyperparameter tuning. You can use this to validate that the parameters used in `BestModel1` are optimal.
 
-- Link to dataset:  https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text
-- You just needs to download this dataset and you can run the notebooks to see how they work!
+4. **Test_Model.ipynb**  
+   Allows users to input their own custom text and test it using the saved model, tokenizer, and label encoder.
 
-I have uploaded the Website's main Js files and Backend python file. They are loacted in the  `Website-Codes` folder.
+Important: Please change the file path when reading the dataset CSV file to match your own local directory, as the paths used in the notebook may not work directly on your system.
+
+---
+
+## Folders
+
+- `Website-Codes/`: Contains the core frontend (`.js`) and backend (`app.py`) files.
+- `Jupyter-Notebook-Training-Codes/`: Includes all model training, tuning, and testing notebooks.
+
+---
+
+## Dataset
+
+- Source: [Emotion Detection from Text – Kaggle](https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text)
+- Simply download the dataset and update the path in the notebooks to run them smoothly.
+
+---
+
+## Demo
+
+A demonstration video is included in this repository to showcase the complete flow of the platform — from journaling to emotion detection and personalized feedback.
+
+---
+
+## Note
+
+Due to GitHub's file size limitations, I was unable to include the full web application with all dependencies and models. However, the repository includes the essential files needed to understand and test the system's functionality end-to-end.
+
+---
+
+Thank you for checking out my project. Feel free to explore the code, run the notebooks, and watch the demonstration video.
